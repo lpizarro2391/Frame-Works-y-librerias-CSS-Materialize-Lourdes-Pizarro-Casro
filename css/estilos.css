@@ -8,7 +8,7 @@ body{
 }
 .container{
     background-image: url(../img/paisaje.jpeg);
-    background-size:1480px 800px;
+    background-size:1480px 950px;
    background-repeat:  no-repeat;
    background-color: #33B8FF;
    background-position: 0 150px;
@@ -20,17 +20,12 @@ body{
   box-shadow: none !important;
 }
 
-.responsive-img{
-  margin-top: 10px;
-border-radius: 5px;
 
-
-}
 
 .nav-extended{
   padding: 10px;
   background-color: RGBA( 205 , 216 ,220, 0  );
-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .waves-effect{
@@ -42,7 +37,7 @@ box-shadow: none !important;
 }
 
 
-@media screen and ( min-height: 320px ){
+@media screen and ( max-width: 899px ){
 
 .nav-wrapper{
   margin-top: 10px;
@@ -57,18 +52,24 @@ box-shadow: none !important;
 .container {
   width: 100%;
 }
-}
-@media only screen and (min-width: 601px) {
-  .container {
-    width: 85%;
-  }
-}
+.responsive-img{
+  margin-top: 10px;
+border-radius: 5px;
+width: 1000px !important;
 
-@media only screen and (min-width: 993px) {
+}
+}
+@media only screen and (min-width: 900px) {
   .container {
     width: 85%;
   }
+  .responsive-img{
+    margin-top: 10px;
+  border-radius: 5px;
+
+}
   #imagen{
     padding-left: 50px;
-  }
+
+}
 }
