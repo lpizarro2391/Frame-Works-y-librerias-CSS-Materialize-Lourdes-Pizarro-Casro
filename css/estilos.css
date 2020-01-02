@@ -1,3 +1,14 @@
+body{
+
+  background-image: url(../img/paisaje.jpeg);
+  background-size:1480px 550px;
+ background-repeat:  no-repeat;
+ background-color: #33B8FF;
+ background-position: 0 140px;
+
+
+}
+
 .responsive-img{
   margin-top: 10px;
 border-radius: 5px;
@@ -6,4 +17,18 @@ border-radius: 5px;
 
 .nav-extended{
   padding: 10px;
+  background-color: RGBA( 205 , 216 ,220, 0  );
+
+}
+
+.waves-effect{
+
+ box-sizing: border-box;
+ background-color: blue;
+ padding: 5px;
+ margin: 5px;
+}
+
+.left {
+  margin: 0;
 }
