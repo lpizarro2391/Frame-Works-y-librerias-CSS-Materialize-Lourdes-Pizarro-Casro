@@ -1,20 +1,24 @@
 body{
 
-  background-image: url(../img/paisaje.jpeg);
-  background-size:1480px 800px;
- background-repeat:  no-repeat;
- background-color: #33B8FF;
- background-position: 0 150px;
 
+ background-color: black;
+
+
+
+}
+.container{
+    background-image: url(../img/paisaje.jpeg);
+    background-size:1480px 800px;
+   background-repeat:  no-repeat;
+   background-color: #33B8FF;
+   background-position: 0 150px;
 
 }
 
 .header{
   margin-bottom: 0;
 }
-#imagen{
-  padding-left: 50px;
-}
+
 .responsive-img{
   margin-top: 10px;
 border-radius: 5px;
@@ -34,19 +38,35 @@ border-radius: 5px;
  padding: 5px;
  margin: 20px;
 }
-@media screen and ( max-height: 320px ){
 
-.nav-wrapper{
-  margin-top: 0px;
-}
-}
 
 @media screen and ( min-height: 320px ){
 
 .nav-wrapper{
   margin-top: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
-}
+
+
 .redes-sociales{
   padding: 10px;
+}
+.container {
+  width: 100%;
+}
+}
+@media only screen and (min-width: 601px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 85%;
+  }
+  #imagen{
+    padding-left: 50px;
+  }
 }
