@@ -52,10 +52,18 @@ body{
 .container {
   width: 100%;
 }
-.responsive-img{
-  margin-top: 10px;
+
+.logo-img {
+margin-top: 4px;
 border-radius: 5px;
-width: 1000px !important;
+margin-left: -19px;
+max-width: 153px !important;
+}
+.responsive-img1{
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+
 
 }
 }
@@ -66,6 +74,12 @@ width: 1000px !important;
   .responsive-img{
     margin-top: 10px;
   border-radius: 5px;
+
+}
+.responsive-img1{
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
 
 }
   #imagen{
