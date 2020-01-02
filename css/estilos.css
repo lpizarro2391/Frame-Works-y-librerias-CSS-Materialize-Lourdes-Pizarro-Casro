@@ -17,18 +17,20 @@ body{
 
 .header{
   margin-bottom: 0;
+  box-shadow: none !important;
 }
 
 .responsive-img{
   margin-top: 10px;
 border-radius: 5px;
 
+
 }
 
 .nav-extended{
   padding: 10px;
   background-color: RGBA( 205 , 216 ,220, 0  );
-
+box-shadow: none !important;
 }
 
 .waves-effect{
