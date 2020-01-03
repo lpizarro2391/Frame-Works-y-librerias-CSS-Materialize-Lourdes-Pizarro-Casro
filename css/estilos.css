@@ -11,7 +11,7 @@ body{
     background-image: url(../img/paisaje.jpg);
     background-size:cover;
     background-repeat:  no-repeat;
-    background-position: 0 190px;
+    background-position: 0 180px;
     background-color: #42A5F5 !important;
 }
 .fotos{
@@ -27,7 +27,7 @@ body{
 }
 
 .main-title{
-  margin-top: 70px;
+  margin-top: 60px;
 padding-left: 25px;
 }
 .logo-title{
@@ -64,6 +64,17 @@ padding-left: 25px;
   width: 100%;
 }
 
+.logo-img {
+
+      width: 150px;
+      margin-bottom: -60px;
+      border: 1px solid white;
+      display: inline;
+      border-radius: 20px;
+      text-align: center;
+      background: white;
+
+}
 
 
 
