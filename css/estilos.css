@@ -10,6 +10,7 @@ body{
     background-image: url(../img/paisaje.jpg);
     background-size:cover;
     background-repeat:  no-repeat;
+    padding-top: 60px;
 }
 
 
@@ -26,6 +27,7 @@ body{
 
 .main-title{
   margin-top: 80px;
+  text-decoration:
 }
 .logo-title{
   margin-bottom: 0px;
@@ -39,11 +41,19 @@ body{
       border-radius: 20px;
       text-align: center;
       background: white;
+      margin-top: 15px;
 }
 .nav-wraper{
   padding-top: 20px;
 }
 
+.responsive-img1{
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+
+
+}
 @media screen and ( max-width: 899px ){
 
 
@@ -57,13 +67,7 @@ body{
 }
 
 
-.responsive-img1{
-  margin-top: 10px;
-  max-width: 100%;
-  height: auto;
 
-
-}
 .buttons-logo{
 position: absolute!important;
 margin-left: 110px !important;
