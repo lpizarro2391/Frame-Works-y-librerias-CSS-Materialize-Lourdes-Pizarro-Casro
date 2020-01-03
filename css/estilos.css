@@ -7,12 +7,16 @@ body{
 
 }
 .contenedor{
+    background-attachment: fixed;
     background-image: url(../img/paisaje.jpg);
     background-size:cover;
     background-repeat:  no-repeat;
-    padding-top: 60px;
+    background-position: 0 190px;
+    background-color: #42A5F5 !important;
 }
-
+.fotos{
+  padding-top: 60px;
+}
 
 .waves-effect{
 
@@ -23,7 +27,7 @@ body{
 }
 
 .main-title{
-  margin-top: 80px;
+  margin-top: 70px;
 padding-left: 25px;
 }
 .logo-title{
@@ -46,7 +50,10 @@ padding-left: 25px;
 #navbar{
   padding-top: 15px;
 }
-
+.nav-extended{
+  background-color: RGBA( 205 , 216 ,220, 0  );
+  box-shadow: none !important;
+}
 
 @media screen and ( max-width: 899px ){
 
