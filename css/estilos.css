@@ -14,9 +14,6 @@ body{
 }
 
 
-
-
-
 .waves-effect{
 
  box-sizing: border-box;
@@ -47,50 +44,25 @@ body{
   padding-top: 20px;
 }
 
-.responsive-img1{
-  margin-top: 10px;
-  max-width: 100%;
-  height: auto;
 
-
-}
 @media screen and ( max-width: 899px ){
 
 
 
 
-.redes-sociales{
-  padding: 10px;
-}
 .container {
   width: 100%;
 }
 
 
 
-.buttons-logo{
-position: absolute!important;
-margin-left: 110px !important;
 
-}
 }
 @media only screen and (min-width: 900px) {
   .container {
     width: 85%;
   }
-  .responsive-img{
-    margin-top: 10px;
-  border-radius: 5px;
 
-}
-.responsive-img1{
-  margin-top: 10px;
-  max-width: 100%;
-  height: auto;
 
-}
-  #imagen{
-    padding-left: 50px;
 
-}
 }
