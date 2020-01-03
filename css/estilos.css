@@ -6,44 +6,47 @@ body{
 
 
 }
-.container{
-    background-image: url(../img/paisaje.jpeg);
-    background-size:1480px 950px;
-   background-repeat:  no-repeat;
-   background-color: #33B8FF;
-   background-position: 0 137px;
-
-}
-
-.header{
-  margin-bottom: 0;
-  box-shadow: none !important;
+.contenedor{
+    background-image: url(../img/paisaje.jpg);
+    background-size:cover;
+    background-repeat:  no-repeat;
 }
 
 
 
-.nav-extended{
-  padding: 10px;
-  background-color: RGBA( 205 , 216 ,220, 0  );
-  box-shadow: none !important;
-}
+
 
 .waves-effect{
 
  box-sizing: border-box;
- background-color: blue;
+ background-color: #0D47A1 !important;
  padding: 5px;
  margin: 20px;
 }
 
+.main-title{
+  margin-top: 80px;
+}
+.logo-title{
+  margin-bottom: 0px;
+}
+.logo-img {
+
+      width: 300px;
+      margin-bottom: -60px;
+      border: 1px solid white;
+      display: inline;
+      border-radius: 20px;
+      text-align: center;
+      background: white;
+}
+.nav-wraper{
+  padding-top: 20px;
+}
 
 @media screen and ( max-width: 899px ){
 
-.nav-wrapper{
-  margin-top: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
+
 
 
 .redes-sociales{
@@ -53,17 +56,17 @@ body{
   width: 100%;
 }
 
-.logo-img {
-margin-top: 4px;
-border-radius: 5px;
-margin-left: -19px;
-max-width: 153px !important;
-}
+
 .responsive-img1{
   margin-top: 10px;
   max-width: 100%;
   height: auto;
 
+
+}
+.buttons-logo{
+position: absolute!important;
+margin-left: 110px !important;
 
 }
 }
