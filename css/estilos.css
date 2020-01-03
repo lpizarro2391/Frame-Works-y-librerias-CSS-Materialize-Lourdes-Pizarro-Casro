@@ -55,6 +55,21 @@ padding-left: 25px;
   box-shadow: none !important;
 }
 
+.zoo{
+box-shadow: none  !important;
+background-size:cover;
+align-items: center;
+justify-content: center;
+}
+
+.blog1{
+  background-color: white;
+  padding: 0 !important;
+}
+.blog2{
+  padding: 0;
+}
+.
 @media screen and ( max-width: 899px ){
 
 
