@@ -24,24 +24,24 @@ body{
 
 .main-title{
   margin-top: 80px;
-  text-decoration:
+padding-left: 25px;
 }
 .logo-title{
   margin-bottom: 0px;
 }
 .logo-img {
 
-      width: 300px;
+      width: 250px;
       margin-bottom: -60px;
       border: 1px solid white;
       display: inline;
       border-radius: 20px;
       text-align: center;
       background: white;
-      margin-top: 15px;
+
 }
-.nav-wraper{
-  padding-top: 20px;
+#navbar{
+  padding-top: 15px;
 }
 
 
