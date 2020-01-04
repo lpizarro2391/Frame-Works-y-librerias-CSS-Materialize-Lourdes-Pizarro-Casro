@@ -60,15 +60,44 @@ box-shadow: none  !important;
 background-size:cover;
 align-items: center;
 justify-content: center;
+margin-top: 11.5px;
 }
 
-.blog1{
-  background-color: white;
-  padding: 0 !important;
-}
+
 .blog2{
   padding: 0;
 }
+.parrafo{
+margin-top: 0;
+
+}
+.card-title{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.circle{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  box-shadow: none !important;
+  margin-top: 15px;
+}
+.autor{
+ align-items: center;
+ margin-top: 0;
+ justify-content: center;
+   box-shadow: none !important;
+   margin-bottom: 0;
+
+
+}
+.card-content{
+  align-items: center;
+  margin-top: 0;
+  justify-content: center;
+}
+
 .
 @media screen and ( max-width: 899px ){
 
@@ -78,7 +107,28 @@ justify-content: center;
 .container {
   width: 100%;
 }
+.blog1{
+  background-color: white;
+  margin-left: 0px!important;
+  margin-right: 40px!important;
+  padding-left: 0!important;
+  padding-right: 0!important  ;
 
+
+
+
+
+}
+.autor1{
+
+background-color: white;
+margin-left: 20px!important;
+margin-right: 10px;
+padding-left: 0!important;
+padding-right: 0!important  ;
+
+
+}
 .logo-img {
 
       width: 150px;
@@ -90,7 +140,10 @@ justify-content: center;
       background: white;
 
 }
-
+.blog2{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
 
 
 }
@@ -98,7 +151,28 @@ justify-content: center;
   .container {
     width: 85%;
   }
+  .blog1{
+    background-color: white;
+    margin-left: 10px!important;
+    margin-right: 50px;
+    padding-left: 0!important;
+    padding-right: 0!important  ;
 
+
+
+
+
+  }
+  .autor1{
+
+  background-color: white;
+  margin-left: 20px!important;
+  margin-right: 10px;
+  padding-left: 0!important;
+  padding-right: 0!important  ;
+
+
+  }
 
 
 }
