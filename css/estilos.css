@@ -101,22 +101,15 @@ margin-top: 0;
 .
 @media screen and ( max-width: 899px ){
 
-
-
-
 .container {
   width: 100%;
 }
 .blog1{
-  background-color: white;
+  background-color: white!important;
   margin-left: 0px!important;
   margin-right: 40px!important;
   padding-left: 0!important;
   padding-right: 0!important  ;
-
-
-
-
 
 }
 .autor1{
