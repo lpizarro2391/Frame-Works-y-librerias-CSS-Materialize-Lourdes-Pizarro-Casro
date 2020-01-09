@@ -55,22 +55,12 @@ padding-left: 25px;
   box-shadow: none !important;
 }
 
-.zoo{
-box-shadow: none  !important;
-background-size:cover;
-align-items: center;
-justify-content: center;
-margin-top: 11.5px;
-}
 
 
 .blog2{
   padding: 0;
 }
-.parrafo{
-margin-top: 0;
 
-}
 .card-title{
   text-align: center;
   display: flex;
@@ -92,13 +82,8 @@ margin-top: 0;
 
 
 }
-.card-content{
-  align-items: center;
-  margin-top: 0;
-  justify-content: center;
-}
 
-.
+
 @media screen and ( max-width: 899px ){
 
 .container {
@@ -106,19 +91,21 @@ margin-top: 0;
 }
 .blog1{
   background-color: white!important;
-  margin-left: 0px!important;
-  margin-right: 40px!important;
+  margin-left: 20px!important;
+  margin-right: 0px!important;
   padding-left: 0!important;
-  padding-right: 0!important  ;
+  padding-right: 0px!important;
 
 }
+
 .autor1{
 
 background-color: white;
 margin-left: 20px!important;
-margin-right: 10px;
+margin-right: 0px!important;
 padding-left: 0!important;
-padding-right: 0!important  ;
+padding-right: 0px!important;
+margin-top: 10px !important;
 
 
 }
@@ -134,12 +121,33 @@ padding-right: 0!important  ;
 
 }
 .blog2{
+
   padding-left: 0!important;
   padding-right: 0!important;
 }
-
+.zoo{
+box-shadow: none  !important;
+background-size:cover;
+align-items: center;
+justify-content: center;
+margin-top: 11.5px;
+display: flex;
+}
+.parrafo{
+margin-top: 0;
 
 }
+
+.card-content{
+  align-items: center;
+  margin-top: 0;
+  justify-content: center;
+  padding-top: 0!important;
+  padding-bottom: 20px!important;
+}
+
+}
+
 @media only screen and (min-width: 900px) {
   .container {
     width: 85%;
@@ -156,6 +164,12 @@ padding-right: 0!important  ;
 
 
   }
+
+  .blog2{
+
+    padding-left: 24px!important;
+    padding-right: 0!important;
+  }
   .autor1{
 
   background-color: white;
@@ -165,6 +179,27 @@ padding-right: 0!important  ;
   padding-right: 0!important  ;
 
 
+  }
+  .zoo{
+  box-shadow: none  !important;
+  background-size:cover;
+  align-items: center;
+  justify-content: center;
+  margin-top: 11.5px;
+  }
+  .parrafo{
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  }
+  .card-content{
+    align-items: center;
+    margin-top: 0;
+    justify-content: center;
+    padding-top: 0px!important;
+    padding-bottom: 20px!important;
   }
 
 
