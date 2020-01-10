@@ -113,6 +113,7 @@ margin-top: 10px !important;
 align-items: center;
 display: flex;
 justify-content: center;
+margin-bottom: 10px!important;
 
 
 }
@@ -166,12 +167,16 @@ margin-top: 0;
   justify-content: left;
   align-items: left;
   display: flex;
-  margin-left: 35px!important;
+  margin-left: 15px!important;
+  padding-left: 0px!important;
 }
 .email-active{
   justify-content: left;
   align-items: left;
   display: flex;
+}
+.cajetin{
+  padding: 20px;
 }
 }
 
@@ -237,6 +242,10 @@ margin-top: 0;
   align-items: left;
   display: flex;
   margin-left: 10px!important;
+  padding-left: 0px!important;
+}
+.cajetin{
+  padding: 20px;
 }
 
 }
