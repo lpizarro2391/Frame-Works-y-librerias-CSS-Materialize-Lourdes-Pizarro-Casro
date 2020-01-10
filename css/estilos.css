@@ -60,9 +60,7 @@ padding-left: 25px;
 
 
 
-.blog2{
-  padding: 0;
-}
+
 
 .card-title{
   text-align: center;
@@ -94,8 +92,8 @@ padding-left: 25px;
 }
 .blog1{
   order: 1;
-  background-color: white!important;
-  margin-left: 18px!important;
+
+  margin-left: 0px!important;
   margin-right: 0px!important;
   padding-left: 0!important;
   padding-right: 0px!important;
@@ -128,11 +126,7 @@ margin-bottom: 10px!important;
       background: white;
 
 }
-.blog2{
 
-  padding-left: 0!important;
-  padding-right: 0!important;
-}
 .blog4{
   margin-top: 0px;
   padding-left: 24px!important;
@@ -142,17 +136,32 @@ margin-bottom: 10px!important;
 
 
 }
+.blog3{
+  padding: 10px;
+}
 .zoo{
 box-shadow: none  !important;
 background-size:cover;
 align-items: center;
 justify-content: center;
-margin-top: 11.5px;
+margin: 0!important;
 display: flex;
 }
 .parrafo{
 margin-top: 0;
+padding: 10px;
 
+}
+.p{
+  margin: 0px!important;
+  padding: 10px;
+}
+.ti{
+  margin-top: 0px!important;
+  padding: 10px;
+}
+.card{
+  margin: 0!important;
 }
 
 .card-content{
@@ -309,6 +318,9 @@ margin-top: 0;
 
 
   }
+  .blog3{
+    box-shadow: none!important;
+  }
   .zoo{
   box-shadow: none  !important;
   background-size:cover;
@@ -321,7 +333,11 @@ margin-top: 0;
   align-items: center;
   justify-content: center;
   display: flex;
+  box-shadow: none!important;
 
+  }
+  .card{
+    box-shadow: none!important;
   }
   .card-content{
     align-items: center;
