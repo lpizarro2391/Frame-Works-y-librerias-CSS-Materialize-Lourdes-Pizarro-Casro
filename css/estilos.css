@@ -93,6 +93,7 @@ padding-left: 25px;
   width: 100%;
 }
 .blog1{
+
   background-color: white!important;
   margin-left: 18px!important;
   margin-right: 0px!important;
@@ -102,7 +103,7 @@ padding-left: 25px;
 }
 
 .autor1{
-order: 1;
+
 background-color: white;
 margin-left: 35px!important;
 margin-right: 0px!important;
@@ -161,7 +162,7 @@ margin-top: 0;
   padding-bottom: 20px!important;
 }
 .comentarios{
-  order: 2;
+
   justify-content: left;
   align-items: left;
   display: flex;
