@@ -181,11 +181,9 @@ margin-top: 0;
   }
   .blog1{
     background-color: white;
+    margin: 10px;
     margin-left: 10px!important;
-    margin-right: 50px;
-    padding-left: 0!important;
-    padding-right: 0!important  ;
-
+    margin-right: 60px!important;
 
 
 
@@ -207,10 +205,9 @@ margin-top: 0;
   .autor1{
 
   background-color: white;
-  margin-left: 20px!important;
-  margin-right: 10px;
-  padding-left: 0!important;
-  padding-right: 0!important  ;
+  margin: 10px;
+  margin-left: 10px!important;
+
 
 
   }
