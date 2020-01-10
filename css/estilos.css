@@ -54,6 +54,9 @@ padding-left: 25px;
   background-color: RGBA( 205 , 216 ,220, 0  );
   box-shadow: none !important;
 }
+.titlecomentario{
+  color: RGBA(221,230,234,0.9)!important;
+}
 
 
 
@@ -99,7 +102,7 @@ padding-left: 25px;
 }
 
 .autor1{
-
+order: 1;
 background-color: white;
 margin-left: 35px!important;
 margin-right: 0px!important;
@@ -128,6 +131,15 @@ justify-content: center;
   padding-left: 0!important;
   padding-right: 0!important;
 }
+.blog4{
+  margin-top: 0px;
+  padding-left: 24px!important;
+  padding-right: 0!important;
+  background-color: #42A5F5 !important;
+  margin-left: 0px!important;
+
+
+}
 .zoo{
 box-shadow: none  !important;
 background-size:cover;
@@ -148,7 +160,18 @@ margin-top: 0;
   padding-top: 0!important;
   padding-bottom: 20px!important;
 }
-
+.comentarios{
+  order: 2;
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  margin-left: 35px!important;
+}
+.email-active{
+  justify-content: left;
+  align-items: left;
+  display: flex;
+}
 }
 
 @media only screen and (min-width: 900px) {
