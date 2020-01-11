@@ -83,7 +83,11 @@ padding-left: 25px;
 
 
 }
-
+.card{
+  margin: 0!important;
+  box-shadow: none!important;
+  border-radius: none!important;
+}
 
 @media screen and ( max-width: 767px ){
 
@@ -162,6 +166,8 @@ padding: 10px;
 }
 .card{
   margin: 0!important;
+  box-shadow: none!important;
+  border-radius: 0px!important;
 }
 
 .card-content{
@@ -201,6 +207,7 @@ padding: 10px;
     padding-left: 0!important;
     padding-right: 0px!important;
 
+
   }
 
   .autor1{
@@ -233,6 +240,7 @@ padding: 10px;
 
     padding-left: 0!important;
     padding-right: 0!important;
+
   }
   .blog4{
     margin-top: 0px;
@@ -250,6 +258,7 @@ padding: 10px;
   justify-content: center;
   margin-top: 11.5px;
   display: flex;
+
   }
   .parrafo{
   margin-top: 0;
@@ -291,6 +300,7 @@ padding: 10px;
     margin: 10px;
     margin-left: 10px!important;
     margin-right: 60px!important;
+
 
 
 
@@ -337,7 +347,9 @@ padding: 10px;
 
   }
   .card{
+    margin: 0!important;
     box-shadow: none!important;
+    border-radius: none!important;
   }
   .card-content{
     align-items: center;
