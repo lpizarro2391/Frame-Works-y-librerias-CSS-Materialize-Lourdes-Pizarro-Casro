@@ -95,7 +95,7 @@ padding-left: 25px;
   width: 100%;
 }
 .blog1{
-  order: 1;
+  order: 1!important;
 
   margin-left: 0px!important;
   margin-right: 0px!important;
@@ -103,9 +103,11 @@ padding-left: 25px;
   padding-right: 0px!important;
 
 }
-
+.order2{
+  order: 2!important;
+}
 .autor1{
-order: 3;
+order: 3!important;
 background-color: white;
 margin-left: 35px!important;
 margin-right: 0px!important;
@@ -132,11 +134,16 @@ margin-bottom: 10px!important;
 }
 
 .blog4{
+  order: 2!important;
   margin-top: 0px;
-  padding-left: 24px!important;
-  padding-right: 0!important;
+
+
   background-color: #42A5F5 !important;
-  margin-left: 0px!important;
+
+
+  justify-content: left;
+  align-items: left;
+  display: flex;
 
 
 }
@@ -182,14 +189,7 @@ padding: 10px;
   padding-top: 0!important;
   padding-bottom: 20px!important;
 }
-.comentarios{
-  order: 2;
-  justify-content: left;
-  align-items: left;
-  display: flex;
-  margin-left: 15px!important;
-  padding-left: 0px!important;
-}
+
 .email-active{
   justify-content: left;
   align-items: left;
@@ -198,6 +198,10 @@ padding: 10px;
 .cajetin{
   padding: 20px;
 }
+.titlecomentario{
+  margin-left: 15px!important;
+}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -216,7 +220,7 @@ padding: 10px;
   }
 
   .autor1{
-  order: 3;
+
   background-color: white;
   margin-left: 35px!important;
   margin-right: 0px!important;
@@ -247,15 +251,7 @@ padding: 10px;
     padding-right: 0!important;
 
   }
-  .blog4{
-    margin-top: 0px;
-    padding-left: 24px!important;
-    padding-right: 0!important;
-    background-color: #42A5F5 !important;
-    margin-left: 0px!important;
 
-
-  }
   .zoo{
   box-shadow: none  !important;
   background-size:cover;
@@ -278,14 +274,15 @@ padding: 10px;
     padding-top: 0!important;
     padding-bottom: 20px!important;
   }
-  .comentarios{
-    order: 2;
-    justify-content: left;
-    align-items: left;
-    display: flex;
-    margin-left: 15px!important;
-    padding-left: 0px!important;
-    margin-top: 10px!important;
+  .blog4{
+
+    background-color: #42A5F5 !important;
+  justify-content: left;
+  align-items: left;
+  display: flex;
+  margin-top: 10px!important;
+  margin-left: 5px!important;
+
   }
   .email-active{
     justify-content: left;
@@ -295,8 +292,11 @@ padding: 10px;
   .cajetin{
     padding: 20px;
   }
+  .titlecomentario{
+    margin-left: 15px!important;
   }
-}
+  }
+
 @media only screen and (min-width: 900px) {
   .container {
     width: 85%;
@@ -319,11 +319,12 @@ padding: 10px;
     padding-right: 0!important;
   }
   .blog4{
-    margin-top: 15px;
-    padding-left: 24px!important;
-    padding-right: 0!important;
-    background-color: #42A5F5 !important;
-    margin-left: 0px!important;
+      background-color: #42A5F5 !important;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+
+
   }
   .autor1{
 
@@ -367,16 +368,20 @@ padding: 10px;
     padding-top: 0px!important;
     padding-bottom: 20px!important;
   }
-.comentarios{
+
+.cajetin{
+  padding: 20px;
+  margin-top: 15px;
+  padding-left: 24px!important;
+  padding-right: 0!important;
+  background-color: #42A5F5 !important;
+  margin-left: 0px!important;
   justify-content: left;
   align-items: left;
   display: flex;
   margin-left: 10px!important;
-  padding-left: 0px!important;
+
   margin-top: 0px!important;
-}
-.cajetin{
-  padding: 20px;
 }
 
 }
