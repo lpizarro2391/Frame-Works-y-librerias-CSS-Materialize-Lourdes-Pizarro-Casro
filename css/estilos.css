@@ -14,9 +14,6 @@ body{
     background-position: 0 180px;
     background-color: #42A5F5 !important;
 }
-.fotos{
-  padding-top: 60px;
-}
 
 .waves-effect{
 
@@ -94,8 +91,17 @@ padding-left: 25px;
 .container {
   width: 100%;
 }
-.blog1{
+.card-image{
+  margin-top: 10px;
+}
+.blog0{
   order: 1!important;
+  flex-flow: column;
+  padding-left: 0!important;
+  padding-right: 0px!important;
+  display: flex;
+}
+.blog1{
 
   margin-left: 0px!important;
   margin-right: 0px!important;
@@ -103,13 +109,29 @@ padding-left: 25px;
   padding-right: 0px!important;
 
 }
+.fotos{
+  padding-top: 60px;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+.caja{
+  display: flex;
+  flex-flow: column;
+  padding-top: 60px;
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
+
 .order2{
   order: 2!important;
+  flex-flow: column;
+  margin-top: 10px!important;
 }
 .autor1{
 order: 3!important;
+flex-flow: column;
 background-color: white;
-margin-left: 35px!important;
+margin-left: 30px!important;
 margin-right: 0px!important;
 padding-left: 0!important;
 padding-right: 0px!important;
@@ -208,6 +230,16 @@ padding: 10px;
   .container {
     width: 100%;
   }
+  .card-image{
+    margin-top: 10px;
+  }
+  .blog0{
+
+    padding-left: 0px!important;
+  }
+  .caja1{
+    padding-right: 0px!important;
+  }
   .blog1{
     order: 1;
     background-color: white!important;
@@ -221,12 +253,12 @@ padding: 10px;
 
   .autor1{
 
-  background-color: white;
-  margin-left: 35px!important;
+
+
   margin-right: 0px!important;
   padding-left: 0!important;
   padding-right: 0px!important;
-  margin-top: 10px !important;
+
   align-items: center;
   display: flex;
   justify-content: center;
@@ -301,11 +333,15 @@ padding: 10px;
   .container {
     width: 85%;
   }
+  .card-image{
+    margin-top: 10px;
+  }
+
   .blog1{
-    background-color: white;
+
     margin: 10px;
     margin-left: 10px!important;
-    margin-right: 60px!important;
+
 
 
 
@@ -328,9 +364,10 @@ padding: 10px;
   }
   .autor1{
 
-  background-color: white;
+
   margin: 10px;
-  margin-left: 10px!important;
+
+
 
 
 
@@ -383,5 +420,13 @@ padding: 10px;
 
   margin-top: 0px!important;
 }
+.caja{
+  padding-left: 0px!important;
+}
+.caja1{
+  padding-left: 0px!important;
+  padding-right:0px!important;
 
+
+}
 }
