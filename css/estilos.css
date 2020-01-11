@@ -155,9 +155,9 @@ box-shadow: none  !important;
 background-size:cover;
 align-items: center;
 justify-content: center;
-margin: 0!important;
+
 display: flex;
-margin-top: 10px!important;
+margin-top: 20px!important;
 }
 .parrafo{
 margin-top: 0;
@@ -173,7 +173,7 @@ padding: 10px;
   padding: 10px;
 }
 .card{
-  margin: 0!important;
+
   box-shadow: none!important;
   border-radius: 0px!important;
 
@@ -257,9 +257,9 @@ padding: 10px;
   background-size:cover;
   align-items: center;
   justify-content: center;
-  margin-top: 11.5px;
+
   display: flex;
-  margin-top: 10px!important;
+  margin-top: 5px!important;
 
   }
   .parrafo{
@@ -344,7 +344,7 @@ padding: 10px;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-top: 10px!important;
+
 
 
   }
