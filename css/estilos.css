@@ -150,6 +150,7 @@ align-items: center;
 justify-content: center;
 margin: 0!important;
 display: flex;
+margin-top: 10px!important;
 }
 .parrafo{
 margin-top: 0;
@@ -168,6 +169,10 @@ padding: 10px;
   margin: 0!important;
   box-shadow: none!important;
   border-radius: 0px!important;
+
+}
+.chip1{
+  padding: 15px;
 }
 
 .card-content{
@@ -258,6 +263,7 @@ padding: 10px;
   justify-content: center;
   margin-top: 11.5px;
   display: flex;
+  margin-top: 10px!important;
 
   }
   .parrafo{
@@ -336,7 +342,10 @@ padding: 10px;
   background-size:cover;
   align-items: center;
   justify-content: center;
-  margin-top: 11.5px;
+  display: flex;
+  margin-top: 10px!important;
+
+
   }
   .parrafo{
   margin-top: 0;
@@ -347,7 +356,7 @@ padding: 10px;
 
   }
   .card{
-    margin: 0!important;
+
     box-shadow: none!important;
     border-radius: none!important;
   }
